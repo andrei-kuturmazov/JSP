@@ -16,7 +16,5 @@ public class StudentsServlet extends HttpServlet {
             writer.println("The student is confirmed: " + req.getParameter("firstName") + " " + req.getParameter("lastName"));
             writer.println("</html></body>");
         }
-
-
     }
 }
